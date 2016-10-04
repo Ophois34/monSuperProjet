@@ -10,3 +10,11 @@
 ********************************/
 alert('Hello World!');
 /*alert('test'); */
+$(document).ready(function()
+{
+  $('#pomme').hover(function(){
+  	this.src = "images/Pomme.jpg";
+  }, function(){
+  	this.src = "images/pomme-rouge.jpg";
+  });	
+});

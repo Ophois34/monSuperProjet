@@ -30,13 +30,15 @@ p{
 	border-radius: 20px;
 	float: right;
 	transition: width 4s ease-out, 
+				box-shadow 3s,
 				transform 4s ease-in 3s,
-				opacity 4s ease-out 7s;
+				opacity 4s ease-out 5s;
 }
 #sorciere:hover{
 	width: 500px;
 	opacity: 0.3;
 	transform: rotate(45deg);
+	box-shadow: -10px 10px rgba(0,0,0,.5);
 }
 /* raz float */
 .clear
