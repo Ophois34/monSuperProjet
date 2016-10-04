@@ -9,4 +9,4 @@
 *								*
 ********************************/
 alert('Hello World!');
-alert('test');
+/*alert('test'); */
