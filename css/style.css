@@ -27,11 +27,13 @@ p{
 	width: 200px;
 	border-radius: 20px;
 	float: right;
-	transition: width 4s ease-out;
+	transition: width 4s ease-out, opacity 4s ease-out 3s;
 }
 #sorciere:hover{
 	width: 500px;
+	opacity: 0.2;
 }
+/* raz float */
 .clear
 {
 	clear: both;
