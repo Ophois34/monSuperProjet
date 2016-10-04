@@ -8,13 +8,15 @@ html{
 body {
 	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
 }
+/* entête avec une ombre sur le texte */
 h1{
 	color: #FF0000;
+	text-shadow: 4px 4px grey;
 }
 p{
 	border: 1px dashed pink;
 	background-color: #FF0000;
-	color: black;
+	color: white;
 	font-size: 18px;
 }
 #pomme{
@@ -27,17 +29,21 @@ p{
 	width: 200px;
 	border-radius: 20px;
 	float: right;
-	transition: width 4s ease-out, opacity 4s ease-out 3s;
+	transition: width 4s ease-out, 
+				transform 4s ease-in 3s,
+				opacity 4s ease-out 7s;
 }
 #sorciere:hover{
 	width: 500px;
-	opacity: 0.2;
+	opacity: 0.3;
+	transform: rotate(45deg);
 }
 /* raz float */
 .clear
 {
 	clear: both;
 }
+/* pied de page collé en bas et centré */
 footer{
 	width: 100%;
 	font-style: italic;
