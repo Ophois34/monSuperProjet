@@ -4,6 +4,10 @@ html{
 	min-height: 100%;
 	background: linear-gradient(150deg, white, green);
 }
+
+body {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
 h1{
 	color: #003300;
 }
