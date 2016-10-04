@@ -23,7 +23,7 @@ p{
 	width: 200px;
 	border-radius: 20px;
 	float: right;
-	transition: width 3s;
+	transition: width 4s ease-out;
 }
 #sorciere:hover{
 	width: 500px;
