@@ -1,3 +1,5 @@
+/* Forçage de la haiteur de la page avec 
+   dégradé en fond de page */
 html{
 	min-height: 100%;
 	background: linear-gradient(150deg, white, green);
@@ -15,6 +17,8 @@ p{
 	width: 200px;
 	float: left;
 }
+/* image de la sorcière avec animation au passage
+   de la souris */
 #sorciere{
 	width: 200px;
 	border-radius: 20px;
