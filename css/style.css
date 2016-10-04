@@ -1,20 +1,20 @@
-/* Forçage de la haiteur de la page avec 
+/* Forçage de la hauteur de la page avec 
    dégradé en fond de page */
 html{
 	min-height: 100%;
-	background: linear-gradient(150deg, white, green);
+	background: linear-gradient(150deg, white, #DF01A5);
 }
 
 body {
 	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 h1{
-	color: #003300;
+	color: #FF0000;
 }
 p{
-	border: 1px dashed green;
-	background-color: #003300;
-	color: white;
+	border: 1px dashed pink;
+	background-color: #FF0000;
+	color: black;
 	font-size: 18px;
 }
 #pomme{
