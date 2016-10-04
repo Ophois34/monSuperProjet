@@ -9,7 +9,9 @@
 *								*
 ********************************/
 alert('Hello World!');
-/*alert('test'); */
+
+/* changement d'image sur le passage de
+  la souris avec JQUERY */
 $(document).ready(function()
 {
   $('#pomme').hover(function(){
