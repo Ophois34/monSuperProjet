@@ -1,5 +1,13 @@
 # monSuperProjet
 
-Projet test pour la formation GIT
+Ajouter des fichiers à l'index (local)
+GIT ADD .
 
-Important! Toujours penser à mettre des commentaires!!!
+Faire un commit (local)
+GIT COMMIT -M "LE MESSAGE OBLIGATOIRE"
+
+Envoyer sur github
+GIT PUSH REMOTE MASTER
+
+Récupérer le travail des collaborateurs sur github
+GIT PULL
